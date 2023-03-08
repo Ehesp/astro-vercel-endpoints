@@ -11,5 +11,8 @@
 	</head>
 	<body>
 		<h1>Astro</h1>
+		<script>
+			fetch('/api/foo').then(r => r.json()).then(console.log).catch(console.error);
+		</script>
 	</body>
 </html>
